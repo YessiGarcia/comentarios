@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Libro de visitas</title>
+</head>
+<body>
+	<h1>Artículos</h1>
+	<div>
+		<p id="comentarioEnviado"></p>
+	</div>
+	<div>
+		<p><font color="blue">Nueva historia</font></font></p>
+		<input id="" style="float: right;" onclick="borrar()" type="submit" value="Borrar"/><br/>
+		<p style="background: blue; color: white; text-align: right;">Hola!!!</p>
+	</div>
+	<div>
+		<h3>Crear artículo</h3>
+		<button id="grande" onclick="agrandarTexto()">Texto grande</button>
+		<button id="mediano">Texto mediano</button>
+		<button id="pequeño">Texto chico</button>
+		<button id="colorLetra">Color de texto</button>
+		<button id="colorFondo">Color de fondo</button>
+		<button id="derecha">Alinear a la derecha</button>
+		<button id="centro">Centrar</button>
+		<button id="izquierda">Alinear a la izquierda</button>
+		<br/>
+		<textarea id="comentarioEntrada" rows="10" cols="100"></textarea>
+	</div>
+	<div>	
+		<h3>Contenido</h3>
+		<div>
+			<p id="vistaPrevia"></p>
+		</div>
+		<input id="envio" type="submit" onclick="imprimirComentario ()" name="" value="Enviar">
+		<!-- <input id="prueba" onclick="verComentario()" type="submit" name="" value="probar"> -->
+	</div>
+	<script src="libro.js"></script>
+</body>
+</html>
